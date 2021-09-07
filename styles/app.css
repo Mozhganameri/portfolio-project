@@ -1,6 +1,38 @@
 body{
     font-family: 'Nunito', sans-serif;
 }
-h1{
-    font-size: 40px;
+
+.subject{
+height: 265px;
+color: white;
+/* margin-top: 79px; */
+font-weight: bold;
+background-image: url("../images/overlay.png");
+}
+.subject h1{
+    font-size: 72px;
+    line-height: 98px;
+    padding-top: 47px;
+    
+}
+.subject p{
+display: block;
+margin: 0 auto;
+font-size: 24px;
+width: 560px;
+padding-bottom: 46px;
+}
+
+.nav-link{
+    color: black;
+}
+
+.nav-item{
+font-size: 16px;
+font-weight: bold;
+}
+
+.navbar{
+    padding-top: 33px;
+    padding-bottom: 62px;
 }
