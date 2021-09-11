@@ -1,13 +1,12 @@
 body{
     font-family: 'Nunito', sans-serif;
 }
-
 .subject{
-height: 265px;
-color: white;
-/* margin-top: 79px; */
-font-weight: bold;
-background-image: url("../images/overlay.png");
+    height: 265px;
+    color: white;
+    margin-bottom: 100px;
+    font-weight: bold;
+    background-image: url("../images/overlay.png");
 }
 .subject h1{
     font-size: 72px;
@@ -16,11 +15,11 @@ background-image: url("../images/overlay.png");
     
 }
 .subject p{
-display: block;
-margin: 0 auto;
-font-size: 24px;
-width: 560px;
-padding-bottom: 46px;
+    display: block;
+    margin: 0 auto;
+    font-size: 24px;
+    width: 560px;
+    padding-bottom: 46px;
 }
 
 .nav-link{
@@ -28,11 +27,62 @@ padding-bottom: 46px;
 }
 
 .nav-item{
-font-size: 16px;
-font-weight: bold;
+    font-size: 16px;
+    font-weight: bold;
 }
 
 .navbar{
     padding-top: 33px;
     padding-bottom: 62px;
+}
+
+.homepageContent{
+    margin: 0 140px;
+    max-width: 1160px;
+}
+
+
+.imageLable{
+    font-size: 28px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 50px ;
+}
+
+.bgLightgray{
+    background-color: #F9F7FE;
+    padding: 0 140px;
+    width: 1160px;
+}
+
+.footer{
+    width: 102px;
+    height: 18px;
+}
+.footerLogo{
+    width: 18px;
+    height: 14px;
+}
+
+.leftImg{
+    padding-left: 0;
+    padding-right: 20px;
+}
+.rightImg{
+    padding-right: 0;
+    padding-left: 20px;
+}
+
+.footerP{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    margin-bottom: 0;
+}
+
+#shecodesLogo{
+    height: 25px;
+}
+
+.sameWidth{
+    width: 265px;
 }
