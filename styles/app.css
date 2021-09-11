@@ -37,7 +37,7 @@ body{
 }
 
 .homepageContent{
-    margin: 0 140px;
+    margin: 0 94.5pxpx;
     max-width: 1160px;
 }
 
@@ -51,8 +51,8 @@ body{
 
 .bgLightgray{
     background-color: #F9F7FE;
-    padding: 0 140px;
-    width: 1160px;
+    padding: 0 94.5px;
+    width: 1349px;
 }
 
 .footer{
