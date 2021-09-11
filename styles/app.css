@@ -7,6 +7,8 @@ body{
     margin-bottom: 100px;
     font-weight: bold;
     background-image: url("../images/overlay.png");
+    background-repeat: no-repeat;
+    background-position: center;
 }
 .subject h1{
     font-size: 72px;
@@ -85,4 +87,13 @@ body{
 
 .sameWidth{
     width: 265px;
+}
+
+@media (max-width : 768px) {
+  body{
+  width:inherit;
+  }
+    .subject h1{
+        font-size: 50px;
+    }
 }
